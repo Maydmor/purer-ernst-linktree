@@ -82,9 +82,6 @@
             background: #d6249f;
             background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         }
-        .link-icon.payment {
-            background: #635bff;
-        }
         .link-text {
             flex: 1;
         }
@@ -101,6 +98,30 @@
             color: #666;
             font-size: 18px;
         }
+        .ticket-btn {
+            display: block;
+            width: 100%;
+            padding: 20px 24px;
+            background: #fff;
+            color: #0a0a0a;
+            text-decoration: none;
+            border-radius: 14px;
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            margin-bottom: 8px;
+        }
+        .ticket-btn:hover {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+        }
+        .divider {
+            height: 1px;
+            background: #222;
+            margin: 8px 0;
+        }
         .footer {
             margin-top: 40px;
             font-size: 12px;
@@ -114,6 +135,12 @@
     <div class="handle">@seniorenklub · @purer.ernst</div>
 
     <div class="links">
+        <a href="https://buy.stripe.com/28E5kvfXzdIF6b48jI1Jm35" target="_blank" rel="noopener" class="ticket-btn">
+            Kalsdorf Calling Tickets →
+        </a>
+
+        <div class="divider"></div>
+
         <a href="https://www.instagram.com/seniorenklub/" target="_blank" rel="noopener" class="link">
             <div class="link-icon ig">📷</div>
             <div class="link-text">
@@ -128,15 +155,6 @@
             <div class="link-text">
                 <div class="link-title">Purer Ernst</div>
                 <div class="link-desc">Instagram</div>
-            </div>
-            <div class="link-arrow">›</div>
-        </a>
-
-        <a href="https://buy.stripe.com/28E5kvfXzdIF6b48jI1Jm35" target="_blank" rel="noopener" class="link">
-            <div class="link-icon payment">💳</div>
-            <div class="link-text">
-                <div class="link-title">Kalsdorf Calling — Tickets</div>
-                <div class="link-desc">Stripe Payment</div>
             </div>
             <div class="link-arrow">›</div>
         </a>
